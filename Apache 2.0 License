@@ -1,0 +1,38 @@
+Putty Commands:
+Step 1 : Open Putty
+ 
+Step 2 : Enter  ls3.ps.gameop.net
+ 
+Step 3 : Click on Open
+ 
+Step 4 : Black screen will appear.
+ 
+Step 5 : Enter username        shashi credentials: Username :
+Step 6 : Enter password 3!
+ 
+Step 7 : Copy: ssh aws-ngg-qa-0-app-0.aws.gameop.net and right click
+               for NJQA: ssh aws-ngg-qa-1-app-0.aws.gameop.net
+ 
+Step 8 : Click Enter
+ 
+Step 9 : cd /nyx/gdm-server/log
+ 
+Step 10 : Click Enter
+ 
+Step 9 : Copy sudo service ogs-sapi-server restart and right click
+ 
+Step 10: Click Enter
+ 
+Step 11: Restart starting and OK message will appear
+ 
+Step 12: Click on OK
+*******************************************************************
+To check game status:
+Login with gameop account ()SSH to desired server 
+e.g. Games EU QA[shrbad@se1psxitss002 ~]$ ssh aws-ngg-qa-0-app-0.aws.gameop.net         
+check status:sudo service ogs-sapi-server status   .............1st check this
+              sudo service ogs-betsetting-service status ..............2nd check this
+ 
+if bet setting is failed then to restart use command as: sudo service ogs-betsetting-service restart
+ 
+

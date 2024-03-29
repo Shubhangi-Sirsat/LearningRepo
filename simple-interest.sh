@@ -1,0 +1,19 @@
+We have completed with Bronze testing on NJ stage environment as per test plan.
+https://digitalgames.testrail.io/index.php?/plans/view/137411
+
+Client version :1.15.0
+Jar version :1.0.2
+CFG : 1.0.2
+
+Test summary:
+  
+100% set to passed
+Open Issues- N/A
+
+Thanks,
+Shubhangi
+
+
+Next comment:Game Approved In Stage
+
+Assign to PM
